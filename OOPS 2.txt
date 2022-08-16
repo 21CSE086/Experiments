@@ -1,0 +1,30 @@
+*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package oops;
+
+/**
+ *
+ * @author test05
+ */
+public class divisible {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) 
+    {
+            int sum=0,a=0;
+            for(int i=101;i<200;i++)
+            {
+                if(i%7==0)
+                {
+                    sum=sum+i;
+                    a++;
+                }
+            }
+    System.out.println(sum+"sum of all integers which greater than 100 and less than 200 which are divisble by 7:");
+}
+}
